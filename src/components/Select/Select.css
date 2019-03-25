@@ -1,0 +1,9 @@
+.SelectContainer img {
+  width: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.SelectContainer select {
+  height: 50px;
+}

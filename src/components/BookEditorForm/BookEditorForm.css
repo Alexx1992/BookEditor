@@ -1,0 +1,41 @@
+.BookEditor .InputContainer,
+.BookEditor .SelectContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.BookEditor label {
+  display: inline-block;
+  width: 125px;
+  font-size: 1.4em;
+  line-height: 1;
+  color: #fff;
+}
+
+.SelectContainer select,
+.InputContainer input {
+  width: 250px;
+  padding: 8px 5px;
+  font-size: 1.4em;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+}
+
+.BookEditor button[type="submit"] {
+  padding: 8px 16px;
+  font-size: 1.4em;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #038bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.IsRequired {
+  font-size: 1.4em;
+  color: #d30000;
+}

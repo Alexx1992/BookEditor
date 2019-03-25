@@ -1,0 +1,25 @@
+.ImageLoader {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ImageLoader img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 32px;
+  margin: auto;
+}
+
+.ImageLoader input[type="file"] {
+  display: none;
+}

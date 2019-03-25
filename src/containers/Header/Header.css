@@ -1,0 +1,45 @@
+.HeaderContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, .2);
+  border: 2px solid rgb(255, 255, 255);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.HeaderContainer .AddBook img {
+  width: 35px;
+  cursor: pointer;
+}
+
+.HeaderContainer .Logo {
+  margin: auto;
+}
+
+.HeaderContainer .Logo h1 {
+  margin: 0;
+  font-size: 3.5em;
+  line-height: 1;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.HeaderContainer .SortWrapper {
+  display: flex;
+}
+
+.HeaderContainer .SortWrapper img {
+  width: 18px;
+}
+
+.HeaderContainer figure {
+  width: 50px;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.HeaderContainer figure:first-of-type {
+  margin-right: 10px;
+}

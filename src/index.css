@@ -1,0 +1,23 @@
+@import './assets/styles/normalize.css';
+@import './assets/styles/font.css';
+
+body { 
+  font-family: OpenSans, sans-serif;
+  font-size: 62.5%;
+  line-height: 1.75;
+  font-style: normal;
+  font-weight: 400;
+
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

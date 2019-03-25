@@ -1,0 +1,95 @@
+.BookWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 250px;
+  margin: 0 105px 35px 0;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 12px;
+}
+
+.BookWrapper:nth-child(3n) {
+  margin-right: 0;
+}
+
+.BookWrapper .Book {
+  height: 90%;
+}
+
+.BookWrapper .ButtonContainer {
+  height: 10%;
+}
+
+.BookWrapper .ButtonContainer button {
+  width: 50%;
+  border: none;
+  font-size: 1.4em;
+  height: 100%;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.BookWrapper .ButtonContainer .Edit {
+  background: #008000;
+}
+
+.BookWrapper .ButtonContainer .Remove {
+  background: #ba0000;
+}
+
+.BookWrapper .BookData {
+  height: 50%;
+  padding: 10px 10px 0;
+}
+
+.BookWrapper .Cover {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.BookWrapper .ImageWrapper {
+  display: flex;
+  height: 50%;
+  background: #a1a1a1
+}
+
+.BookWrapper .ImageWrapper img {
+  width: 56px;
+  margin: auto;
+}
+
+.BookWrapper .Headline {
+  margin: 0 0 10px;
+  font-size: 2em;
+  line-height: 1;
+  text-align: center;
+}
+
+.BookWrapper p {
+  margin: 0;
+}
+
+.BookWrapper .Author {
+  text-align: center;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+.BookWrapper .PublicationYear {
+  text-align: right;
+  color: #555555;
+  font-size: 1.15em;
+  font-style: italic;
+}
+
+.BookWrapper .SecondaryData {
+  font-size: 1.1em;
+}
+
+.BookWrapper .SecondaryData label {
+  margin-right: 10px;
+}

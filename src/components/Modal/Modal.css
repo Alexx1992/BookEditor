@@ -1,0 +1,25 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modalContainer {
+  height: 400px;
+  width: 320px;
+  background-color: #fff;
+  padding: 16px 12px;
+}
+
+.buttonWrapper {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.goBack {
+  width: 20px;
+}
