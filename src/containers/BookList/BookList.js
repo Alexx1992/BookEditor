@@ -35,7 +35,7 @@ class BookList extends Component {
 
   render() {
     return (
-      this.props.books ?
+      this.props.books.length ?
         <ul className="BookList">
           {this.props.books.map(book => (
             <Book
